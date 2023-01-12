@@ -670,9 +670,9 @@ footer{
 
 @media (max-width : 800px){
 
-    .logo a{
-        padding: 1rem 0.5rem;
-        margin-left: -1rem;
+.logo a{
+    padding: 1rem 0.5rem;
+    margin-left: -1rem;
     }
 
 nav li a{
@@ -812,12 +812,12 @@ footer{
     }
 
     textarea{
-        width: 21.5rem;
+        width: 21rem;
         height: 10rem;
         border: 2px solid #B2AB8C;
         padding: 0.5rem;
         margin-top: 1rem;
-        margin-left: -1rem;
+        margin-left: -0.5rem;
     }
 
     form button{
