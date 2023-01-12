@@ -1,5 +1,5 @@
 :root{
-    --paragraph-font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --paragraph-font-family :'Inter', sans-serif;
 }
 
 * , *::after , *::before{
@@ -48,17 +48,12 @@ header{
     font-size: 2rem;
     letter-spacing: 0.1rem;
     border: 3px solid;
+    width: 3rem;
+    height: 3rem;
     border-image-source: radial-gradient(circle at top left, #5464ac 50%, #ffffff);
     border-image-slice: 1;
-    padding: 0.9rem 0.5rem;
-}
-
-.logo{
-    transition: transform 250ms ease-in;
-}
-
-.logo:hover{
-    transform: rotateZ(39deg);
+    padding: 1rem 0.9rem;
+    /* border-radius: 15%; */
 }
 
 nav{
@@ -66,7 +61,7 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 25rem;
+    width: 20rem;
     height: 5rem;
     letter-spacing: 0.1rem;
 }
@@ -79,7 +74,7 @@ nav li a{
     text-decoration: none;
     color: rgb(134, 165, 224);
     scroll-behavior: smooth;
-    font-size: 1.2rem;  
+    font-size: 1.1rem;  
 }
 
 nav li a:hover{
@@ -147,10 +142,11 @@ nav li a:hover{
 }
 
 .intro p{
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
     font-family: var(--paragraph-font-family);
-    line-height: 1.5rem;
-    margin: 1rem auto;
+    line-height: 1.7rem;
+    margin: 0 auto;
+    width: 55rem;
 }
 
 .intro a{
@@ -222,7 +218,7 @@ nav li a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 1rem;
+    align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
 }
@@ -702,6 +698,7 @@ nav li a{
     line-height: 1.5rem;
     margin: 0rem auto;
     padding: 1rem;
+    width: 80vw;
 }
 
 .intro a{
@@ -757,6 +754,7 @@ footer{
 
 @media (max-width : 950px){
 
+
     #contact{
         height: 58rem;
     }
@@ -783,22 +781,22 @@ footer{
 
 
     form{
-        width: 25rem;
+        width: 22rem;
         height: 35rem;
         position: relative;
     }
 
     form label{
         font-size: 1.1rem;
-        margin-left: 0rem;
+        margin-left: -1rem;
     }
 
     input{
        width: 20rem;
+       margin-left: -1rem;
     }
 
     .message{
-        margin: 2rem 0rem;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -809,15 +807,16 @@ footer{
         width: 20rem;
         height: 10rem;
         border: 2px solid #B2AB8C;
-        margin: 0.5rem;
         padding: 0.5rem;
+        margin-top: 1rem;
+        margin-left: -1rem;
     }
 
     form button{
         font-size: 1rem;
         position: absolute;
         bottom: 2rem;
-        left: 30%;
+        left: 25%;
     }
 
 }
