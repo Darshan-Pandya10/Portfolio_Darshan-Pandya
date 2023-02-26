@@ -675,6 +675,8 @@ footer{
 
 @media (max-width : 800px){
 
+
+
 .logo a{
     padding: 1rem 0.5rem;
     margin-left: -1rem;
@@ -687,6 +689,8 @@ nav li a{
 .intro{
     width: 100vw;
     height: 35rem;
+    position: absolute;
+    top: 50px;
     }   
       
 .intro h1{
@@ -706,7 +710,7 @@ nav li a{
 .intro p{
     letter-spacing: 0.1rem;
     line-height: 1.8rem;
-    margin: 1rem auto 4rem auto;
+    margin: 1rem auto 2rem auto;
     padding: 1rem;
     width: 100vw;
     display: flex;
