@@ -548,8 +548,10 @@ footer{
         align-items: flex-start;
         justify-content: center;
         position: relative;
-        background-color: #293B5F;
-        color: #DBE6FD;
+    }
+
+    .about-container p{
+        width: 80vw;
     }
     
     .intro{
@@ -702,7 +704,7 @@ nav li a{
 }
 
 .intro p{
-    letter-spacing: 0rem;
+    letter-spacing: 0.1rem;
     line-height: 1.8rem;
     margin: 1rem auto 4rem auto;
     padding: 1rem;
