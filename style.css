@@ -81,19 +81,6 @@ nav li a:hover{
     color: #DBE6FD;
 }
 
-
-/* top arrow */
-
-.top-arrow{
-    position: fixed;
-    bottom: 22%;
-    left: 2rem;
-    width: 3rem;
-    height: 3rem;
-    border: 2px solid rgb(0, 0, 0);
-}
-
-
 /* about container */
 
 .about-container{
@@ -168,6 +155,7 @@ nav li a:hover{
 }
 
 
+
 /* project container */
 
 .container-title{
@@ -229,53 +217,75 @@ nav li a:hover{
 .project{
     width: 25rem;
     height: 20rem;
-    border: 3px solid #9BA4B4;
-    font-family: 'Quicksand', sans-serif;
+    /* border: 3px solid #9BA4B4; */
+    font-family: 'Abel', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     position: relative;
     margin: 1.8rem auto;
-    transition: transform 250ms ease-in;
+    transition: transform 200ms ease-in-out;
     color: black;
     cursor: pointer;
-    box-shadow: #DBE6FD 5px 5px, rgba(0,0,0) 8px 8px;
+    border-radius: 1rem;
+    background-color: #ffffff95;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.project-number{
+    color: #8c92c1;
 }
 
 .project:hover {
     transform: scale(1.05);
-    border: 3px solid #768fc2;
+    /* border: 3px solid #768fc2; */
+    background-color: #b6c8ff;
+}
+
+.project:hover .project-description{
+    color: rgb(0, 0, 0);
+}
+
+.project:hover .project-title{
+    color: rgb(255, 255, 255);
+}
+
+.project:hover .project-number{
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .project img{
-    width: 2rem;
+    width: 1.7rem;
     margin: 0rem 0.5rem;
     padding-bottom: 0.5rem;
     transition: transform 200ms ease-in;
 }
 
 .project img:hover{
-    /* border-bottom: 2px solid black; */
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .project h1{
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     position: absolute;
     top: 1rem;
+    letter-spacing: 0.1rem;
     left: 1rem;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .project p{
     position: absolute;
     top: 5rem;
     left: 1rem;
-    font-size: 18px;
+    font-size: 20px;
     word-wrap: break-word;
     padding-right: 1rem;
     width: 23rem;
+    color: #363636;
 }
 
 .site-link{
@@ -331,7 +341,7 @@ nav li a:hover{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 20rem;
+    width: 15rem;
     height: 6rem;
     background-color: #768fc2;
     border-radius: 1rem 0rem 1rem 0rem;
@@ -415,6 +425,16 @@ form button{
     margin: 0rem auto 1rem auto;
 }
 
+/* top arrow */
+
+.top-arrow{
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 1;
+}
 
 
 /* footer */
@@ -743,12 +763,11 @@ footer{
 }
 
 .top-arrow{
-    position: fixed;
-    bottom: 22%;
-    left: 0.5rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
     width: 2.5rem;
     height: 2.5rem;
-    border: 2px solid black;
 }
 
 .project-wave svg {
