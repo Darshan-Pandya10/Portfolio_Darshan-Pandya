@@ -155,7 +155,6 @@ nav li a:hover{
 }
 
 
-
 /* project container */
 
 .container-title{
@@ -741,6 +740,11 @@ nav li a{
 .intro a{
     width: 10rem;
     font-size: 1rem;
+}
+
+.project{
+    width: 22rem;
+    height: 20rem;
 }
 
 footer{
