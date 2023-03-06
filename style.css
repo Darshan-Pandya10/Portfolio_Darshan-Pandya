@@ -608,8 +608,8 @@ footer{
 
     .project{
         width: 22rem;
-        height: 22rem;
-        margin: 1.8rem auto;
+        height: 20rem;
+        margin: 1.8rem 1rem;
     }
 
     .project h1{
@@ -692,106 +692,6 @@ footer{
 
 }
 
-@media (max-width : 800px){
-
-
-
-.logo a{
-    padding: 1rem 0.5rem;
-    margin-left: -1rem;
-    }
-
-nav li a{
-    font-size: 1.1rem;
-}    
-
-.intro{
-    width: 100vw;
-    height: 35rem;
-    position: absolute;
-    top: 50px;
-    }   
-      
-.intro h1{
-    font-size: 2.5rem;
-    letter-spacing: 0.2rem;
-}
-
-.intro h2{
-    font-size: 2.5rem;
-    letter-spacing: 0.2rem;
-}
-
-.intro span{
-    padding: 0.5rem;
-}
-
-.intro p{
-    letter-spacing: 0.1rem;
-    line-height: 1.8rem;
-    margin: 1rem auto 2rem auto;
-    padding: 1rem;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.intro a{
-    width: 10rem;
-    font-size: 1rem;
-}
-
-.project{
-    width: 22rem;
-    height: 20rem;
-}
-
-footer{
-    height: 10rem;
-}
-
-.footer-logo a{
-    left: 2rem;
-    bottom: 3rem;
-}
-
-.socials{
-    width: 8rem;
-    right: 2rem;
-    bottom: 2.5rem;
-}
-
-.socials img:hover{
-    transform: scale(1.1);
-}
-
-.top-arrow{
-    position: absolute;
-    bottom: 2rem;
-    left: 1rem;
-    width: 2.5rem;
-    height: 2.5rem;
-}
-
-.project-wave svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 55px;
-}
-
-.contact-wave svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 45px;
-    transform: rotateY(180deg);
-}
-
-
-}
-
 @media (max-width : 950px){
 
 
@@ -859,6 +759,103 @@ footer{
         left: 28%;
     }
 
+    
+@media (max-width : 800px){
+
+    .logo a{
+        padding: 1rem 0.5rem;
+        margin-left: -1rem;
+        }
+    
+    nav li a{
+        font-size: 1.1rem;
+    }    
+    
+    .intro{
+        width: 100vw;
+        height: 35rem;
+        position: absolute;
+        top: 50px;
+        }   
+          
+    .intro h1{
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+    }
+    
+    .intro h2{
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+    }
+    
+    .intro span{
+        padding: 0.5rem;
+    }
+    
+    .intro p{
+        letter-spacing: 0.1rem;
+        line-height: 1.8rem;
+        margin: 1rem auto 2rem auto;
+        padding: 1rem;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .intro a{
+        width: 10rem;
+        font-size: 1rem;
+    }
+    
+    .project{
+        width: 22rem;
+        height: 20rem;
+    }
+    
+    footer{
+        height: 10rem;
+    }
+    
+    .footer-logo a{
+        left: 2rem;
+        bottom: 3rem;
+    }
+    
+    .socials{
+        width: 8rem;
+        right: 2rem;
+        bottom: 2.5rem;
+    }
+    
+    .socials img:hover{
+        transform: scale(1.1);
+    }
+    
+    .top-arrow{
+        position: absolute;
+        bottom: 2rem;
+        left: 1rem;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .project-wave svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 55px;
+    }
+    
+    .contact-wave svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 45px;
+        transform: rotateY(180deg);
+    }
+    }
+    
 }
 
 
