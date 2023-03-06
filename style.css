@@ -632,7 +632,7 @@ footer{
     }
     .contact-header{
         font-size: 1.5rem;
-        margin: 4rem auto 6rem auto;
+        margin: 10rem auto 4rem auto;
         width: 15rem;
         height: 5rem;
     }
@@ -700,7 +700,7 @@ footer{
     }
     .contact-header{
         font-size: 1.5rem;
-        margin: 4rem auto 6rem auto;
+        margin: 10rem auto 4rem auto;
         width: 15rem;
         height: 5rem;
     }
@@ -846,12 +846,19 @@ footer{
         width: calc(100% + 1.3px);
         height: 55px;
     }
+
+    .contact-header{
+        font-size: 1.5rem;
+        margin: 5rem auto 4rem auto;
+        width: 15rem;
+        height: 5rem;
+    }
     
     .contact-wave svg {
         position: relative;
         display: block;
         width: calc(100% + 1.3px);
-        height: 45px;
+        height: 35px;
         transform: rotateY(180deg);
     }
     }
