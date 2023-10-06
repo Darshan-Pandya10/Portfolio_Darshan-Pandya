@@ -87,6 +87,7 @@ nav li a:hover{
 .about-container{
     width: 100vw;
     height: 45rem;
+    height: 100vh;
     /* margin: 2rem auto; */
     display: flex;
     flex-direction: row;
@@ -177,10 +178,12 @@ nav li a:hover{
 
 #project-main-coinainer{
     width: 100vw;
-    height: 95rem;
+    /* height: 95rem; */
+    height: auto;
     background-color: #DBE6FD;
     margin: 0 auto;
     position: relative;
+    padding: 3rem 0rem;
 }
 
 .project-wave {
@@ -211,7 +214,7 @@ nav li a:hover{
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    /* border: 1px solid black; */
+    /* border: 10px solid black; */
 }
 
 .project{
